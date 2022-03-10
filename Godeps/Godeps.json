@@ -1,0 +1,144 @@
+{
+	"ImportPath": "github.com/zr-hebo/sniffer-agent",
+	"GoVersion": "go1.12",
+	"GodepVersion": "v79",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/Shopify/sarama",
+			"Comment": "v1.14.0-20-gcd645bf",
+			"Rev": "cd645bfba7622e7de8971388543ff97ee026aad4"
+		},
+		{
+			"ImportPath": "github.com/davecgh/go-spew/spew",
+			"Comment": "v1.1.0-9-gecdeabc",
+			"Rev": "ecdeabc65495df2dec95d7c4a4c3e021903035e5"
+		},
+		{
+			"ImportPath": "github.com/eapache/go-resiliency/breaker",
+			"Comment": "v1.0.0-6-gb1fe83b",
+			"Rev": "b1fe83b5b03f624450823b751b662259ffc6af70"
+		},
+		{
+			"ImportPath": "github.com/eapache/go-xerial-snappy",
+			"Rev": "bb955e01b9346ac19dc29eb16586c90ded99a98c"
+		},
+		{
+			"ImportPath": "github.com/eapache/queue",
+			"Comment": "v1.1.0",
+			"Rev": "44cc805cf13205b55f69e14bcb69867d1ae92f98"
+		},
+		{
+			"ImportPath": "github.com/go-sql-driver/mysql",
+			"Comment": "v1.3-42-gfade210",
+			"Rev": "fade21009797158e7b79e04c340118a9220c6f9e"
+		},
+		{
+			"ImportPath": "github.com/golang/snappy",
+			"Rev": "553a641470496b2327abcac10b36396bd98e45c9"
+		},
+		{
+			"ImportPath": "github.com/google/gopacket",
+			"Comment": "v1.1.17-26-gce2e696",
+			"Rev": "ce2e696dc0c9917ecdebd800c892b839f06b2949"
+		},
+		{
+			"ImportPath": "github.com/google/gopacket/layers",
+			"Comment": "v1.1.17-26-gce2e696",
+			"Rev": "ce2e696dc0c9917ecdebd800c892b839f06b2949"
+		},
+		{
+			"ImportPath": "github.com/google/gopacket/pcap",
+			"Comment": "v1.1.17-26-gce2e696",
+			"Rev": "ce2e696dc0c9917ecdebd800c892b839f06b2949"
+		},
+		{
+			"ImportPath": "github.com/google/gopacket/pcapgo",
+			"Comment": "v1.1.17-26-gce2e696",
+			"Rev": "ce2e696dc0c9917ecdebd800c892b839f06b2949"
+		},
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Comment": "v1.4.0-15-gbb285ea",
+			"Rev": "bb285ea687c5c77bb6935fdb2402b121d8efcbec"
+		},
+		{
+			"ImportPath": "github.com/json-iterator/go",
+			"Comment": "v1.1.7",
+			"Rev": "27518f6661eba504be5a7a9a9f6d9460d892ade3"
+		},
+		{
+			"ImportPath": "github.com/modern-go/concurrent",
+			"Comment": "1.0.3",
+			"Rev": "bacd9c7ef1dd9b15be4a9909b8ac7a4e313eec94"
+		},
+		{
+			"ImportPath": "github.com/modern-go/reflect2",
+			"Comment": "v1.0.1",
+			"Rev": "94122c33edd36123c84d5368cfb2b69df93a0ec8"
+		},
+		{
+			"ImportPath": "github.com/pierrec/lz4",
+			"Comment": "v1.0.1",
+			"Rev": "08c27939df1bd95e881e2c2367a749964ad1fceb"
+		},
+		{
+			"ImportPath": "github.com/pierrec/xxHash/xxHash32",
+			"Comment": "v0.1-11-ga0006b1",
+			"Rev": "a0006b13c722f7f12368c00a3d3c2ae8a999a0c6"
+		},
+		{
+			"ImportPath": "github.com/pingcap/tidb/util/hack",
+			"Comment": "v2.1.0-beta-226-g360ef5c",
+			"Rev": "360ef5cee790475e9d75cb349e1b47b0a7a4efee"
+		},
+		{
+			"ImportPath": "github.com/pires/go-proxyproto",
+			"Rev": "83d61d90241fdbce96130ef0cc4ce5e495a95bdf"
+		},
+		{
+			"ImportPath": "github.com/rcrowley/go-metrics",
+			"Rev": "e181e095bae94582363434144c61a9653aff6e50"
+		},
+		{
+			"ImportPath": "github.com/siddontang/go/hack",
+			"Rev": "bdc77568d726a8702315ec4eafda030b6abc4f43"
+		},
+		{
+			"ImportPath": "github.com/sirupsen/logrus",
+			"Comment": "v1.0.4",
+			"Rev": "d682213848ed68c0a260ca37d6dd5ace8423f5ba"
+		},
+		{
+			"ImportPath": "github.com/zr-hebo/util-db",
+			"Rev": "06948bca5665b2d80078f9ff5c015eabb43c54f8"
+		},
+		{
+			"ImportPath": "github.com/zr-hebo/util-http",
+			"Comment": "1.0-2-ga096ffc",
+			"Rev": "a096ffc9ada929bb7d920224cad058207d95054b"
+		},
+		{
+			"ImportPath": "github.com/zr-hebo/validator",
+			"Rev": "f57849af19b4b7782c8151eda271eac1b701943b"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/ssh/terminal",
+			"Rev": "eb71ad9bd329b5ac0fd0148dd99bd62e8be8e035"
+		},
+		{
+			"ImportPath": "golang.org/x/net/bpf",
+			"Rev": "d28f0bde5980168871434b95cfc858db9f2a7a99"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "fde4db37ae7ad8191b03d30d27f258b5291ae4e3"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/windows",
+			"Rev": "fde4db37ae7ad8191b03d30d27f258b5291ae4e3"
+		}
+	]
+}
